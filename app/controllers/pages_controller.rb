@@ -1,5 +1,8 @@
 class PagesController < ApplicationController
-  def show
-    render params[:id]
+  def home
   end
+
+  def about
+  end
+  
 end
